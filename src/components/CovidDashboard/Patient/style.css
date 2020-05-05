@@ -1,0 +1,16 @@
+.patient-panel{
+    max-height: 50vh;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+.patient-info{
+    margin-top: 20px;
+}
+.patient-info__body{
+    max-height: 30vh;
+    overflow-y: auto;
+    margin-right: -1.25rem;
+}
+.patient-item{
+    cursor: pointer;
+}
