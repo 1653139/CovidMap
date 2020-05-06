@@ -10,8 +10,8 @@ const Layout = (props) => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="ml-auto pr-md-5 navbar-nav">
                 <Nav className="mr-auto">
-                    <Link to="/" className="nav-link">Map</Link>
-                    <Link to="/chartdashboard" className="nav-link">Chart Dashboard</Link>
+                    <Link to="/map" className="nav-link">Map</Link>
+                    <Link to="/stats" className="nav-link">Stats</Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

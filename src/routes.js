@@ -7,7 +7,11 @@ const appRoutes = [
     component: CovidDashboard,
   },
   {
-    path: '/chartdashboard',
+    path: '/map',
+    component: CovidDashboard,
+  },
+  {
+    path: '/stats',
     component: ChartDashboard,
   }
 ];
