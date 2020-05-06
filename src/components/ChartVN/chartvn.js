@@ -11,7 +11,7 @@ const options = {
     legend: { position: "bottom" }
 };
 
-const Map = (props) => {
+const Chartvn = (props) => {
     const [data, setData] = useState();
 
     useEffect(() => {
@@ -50,4 +50,4 @@ const Map = (props) => {
     </>
 };
 
-export default Map;
+export default Chartvn;

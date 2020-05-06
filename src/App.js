@@ -7,17 +7,17 @@ function App() {
         <Layout>
             <Switch>
                 {appRoutes.map((prop, key) => (
-                <Route
-                    exact
-                    path={prop.path}
-                    component={prop.component}
-                    key={key}
-                />
+                    <Route
+                        exact
+                        path={prop.path}
+                        component={prop.component}
+                        key={key}
+                    />
                 ))}
             </Switch>
             <Route exact path="/" render={() => <Redirect to="/" />} />
         </Layout>
-        
+
     );
 }
 
